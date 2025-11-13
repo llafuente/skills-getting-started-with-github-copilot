@@ -79,8 +79,8 @@ section h3 {
 }
 
 .participants-list {
-  list-style: disc;
-  padding-left: 22px;
+  list-style: none;
+  padding-left: 0;
   margin: 0;
 }
 
@@ -95,6 +95,23 @@ section h3 {
   border-radius: 8px;
   color: #0b2a66;
   font-size: 14px;
+}
+
+/* Remove participant (delete) button */
+.participant-remove {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.participant-remove:hover {
+  background: rgba(198,40,40,0.08);
 }
 
 /* small circular avatar showing initials */
